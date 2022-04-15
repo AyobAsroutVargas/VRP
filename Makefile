@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -g -Wall
-DEPS = file-loader.h
-OBJ = main.o file-loader.o
+DEPS = file-loader.h greedy-vrp.h vehicle.h grasp-vrp.h
+OBJ = main.o file-loader.o greedy-vrp.o grasp-vrp.o
 
 
 %.o: %.cc $(DEPS)

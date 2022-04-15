@@ -3,16 +3,9 @@
 
 #include <vector>
 
-class Node {
- public:
-  int indx;
-  bool visited;
-};
-
 class Car {
  public:
-  std::vector<Node> tour;
-  void addNode(Node*, double**);
+  std::vector<int> tour;
 };
 
 #endif
